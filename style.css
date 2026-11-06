@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #6d7fa0;
     --primary-dark: #763c85;
@@ -9,13 +10,20 @@
 }
 
 body {
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family:fantasy;
     color: var(--text-dark);
+    background-color:rgb(252, 250, 242);
 }
 
+.form-control {
+    border: radius 10%;
+    font-family:fantasy;
+    background-color:#dccdeb;
+}
 
-
-
+form {
+    background-color:rgb(253, 252, 233)
+}
 .hero-landing {
     background: radial-gradient(circle at center, var(--primary-dark) 0%, var(--bg-dark) 100%);
 }
